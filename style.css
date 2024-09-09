@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', sans-serif;
+}
+
+
+.contenedor {
+    height: 100vh;
+    width: 100%;
+    background-color: #028f76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.juego {
+    background-color: #b3e099;
+    padding: 15px 50px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+
+h1 {
+    color: #ecf0f1;
+    letter-spacing: 1px;
+    text-shadow: rgb(94, 94, 94) 1px 0 10px;
+    margin-bottom: 40px;
+}
+
+button {
+    border-radius: 15px;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+#ok {
+    background-color: #028f76;
+    margin-top: 10px;
+    box-shadow: rgba(107, 107, 107, 0.63) 0px 5px 15px;
+    font-size: 17px;
+}
+
+button#ok:hover {
+    box-shadow: rgba(222, 222, 222, 0.63) 0px 5px 15px;
+}
+
+button#ok:active {
+    background-color: #025a4a;
+}
+
+#reiniciar {
+    background-color: #d45800;
+    margin-top: 10px;
+    box-shadow: rgba(107, 107, 107, 0.63) 0px 5px 15px;
+    font-size: 17px;
+}
+
+button#reiniciar:hover {
+    box-shadow: rgba(234, 173, 146, 0.63) 0px 5px 15px;
+}
+
+button#reiniciar:active {
+    background-color: #9c4406;
+}
+
+input {
+    border-radius: 15px;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#mensaje {
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+    background-color: chocolate;
+    padding: 2px 10px;
+    border-radius: 15px;
+    box-shadow: rgba(107, 107, 107, 0.63) 0px 5px 15px;
+}
+
+.escondido {
+    display: none !important;
+}
+
+#intento {
+    margin-top: 15px;
+}
+
+
+
