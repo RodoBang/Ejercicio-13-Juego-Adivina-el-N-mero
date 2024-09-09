@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+    <!-- Enlace a la hoja de estilos de la pagina -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="juego">
+            <h1>Adivina el número!!!</h1>
+            <div id="mensaje" class="escondido">Muy alto</div>
+            <input type="number" id="input">
+            <button id="ok" onclick="adivinar()">OK</button>
+            <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+            <div id="intento">Intentos: 0</div>
+        </div>
+    </div>
+    <!-- Enlace a la logica del juego -->
+     <script src="script.js"></script>
+</body>
+</html>
